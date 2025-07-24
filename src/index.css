@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+html {
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Sora", sans-serif;
+  box-sizing: border-box;
+  letter-spacing: 0.1px;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+:root {
+  --primary: #000000;
+  --secondary: hsla(255, 8%, 10%, 0.838);
+  --border: rgba(63, 63, 70, 0.4);
+  --title: rgb(244 244 245);
+  --sub-title: rgb(161 161 170);
+  --bg-header: #27272a;
+  --green: rgb(0, 213, 190);
+  --green-alpha: rgba(0, 213, 190, .5);
+  --green-a: rgb(0, 213, 190, 0.15);
+  /*  Particles */
+  --particles: #ffffff;
+  --green-p: rgb(0, 213, 190);
+}
+
+body {
+  background-color: var(--primary);
+  color: aliceblue;
+}
+
+.container {
+  border: solid 1px var(--border);
+  background-color: var(--secondary);
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  backdrop-filter: blur(3px);
+  padding: 0 4.8rem;
+}
+
+.divider {
+  border-bottom: 1px solid var(--border);
+  margin: 3rem 0;
+  width: calc(100% + 4.8rem + 4.8rem);
+  margin-left: -4.8rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  scale: 0.95;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+button {
+  all: unset;
+}
+
+input, textarea {
+  all: unset;
+}
+
+#particles {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 90%;
+    padding: 0 1.7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 98%;
+    padding: 0 1.7rem;
+  }
+}

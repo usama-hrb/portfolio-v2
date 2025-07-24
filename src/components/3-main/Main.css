@@ -1,0 +1,55 @@
+main.flex {
+  /* flex-grow: 1; */
+  padding-top: 2rem;
+  height: auto;
+  gap: 3rem;
+  /* justify-content: space-between; */
+  align-items: start;
+}
+
+main.flex .left-section {
+  flex-direction: column;
+}
+
+main.flex .left-section button {
+  color: var(--sub-title);
+  text-align: center;
+  margin: 0.2rem;
+  border-radius: 15px;
+  padding: 1rem;
+  border: 2px solid var(--border);
+  width: 100%;
+  font-weight: 500;
+  transition: transform 1.08s ease;
+}
+
+main.flex .left-section button:hover {
+  color: var(--title);
+  border: 2px solid var(--green);
+  transform: scale(1.05);
+}
+
+main.flex .left-section button.active {
+  font-weight: bold;
+  color: var(--title);
+  border: 2px solid var(--green);
+  transform: scale(1.03);
+}
+
+@media (max-width: 1400px) {
+  main.flex {
+    padding: 0;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  main.flex .left-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  main.flex .left-section button {
+    width: 7rem;
+    font-size: .88rem;
+  }
+}

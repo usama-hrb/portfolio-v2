@@ -1,0 +1,98 @@
+section.projects {
+  gap: 1.2rem;
+  column-gap: 1.2rem;
+  row-gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+
+section.cooking {
+  /* max-height: 600rem; */
+  width: 90vh;
+}
+
+section.flex-cul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+article.card {
+  border: 1.6px var(--green-a) solid;
+  transition: 0.4s;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.03)
+  );
+}
+
+article.card img {
+  border-radius: 5px;
+}
+
+article.card:hover {
+  border: 2px var(--green) solid;
+  scale: 1.02;
+  rotate: 1.2deg;
+  cursor: pointer;
+}
+
+article.card .box {
+  padding: 1rem 0.4rem;
+}
+
+article.card .box .title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--title);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+article.card .box .description {
+  color: var(--sub-title);
+  font-size: 0.8rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+article.card .box .icons {
+  justify-content: space-between;
+}
+article.card .box .icons .logos {
+  gap: 10px;
+}
+
+article.card .box .icons a {
+  display: flex;
+  color: aliceblue;
+  font-size: 1.2rem;
+}
+article.card .box .icons .icon {
+  color: var(--sub-title);
+  cursor: pointer;
+  font-size: 1.7rem;
+  transition: transform 1.05s ease;
+}
+
+article.card .box .icons .icon:hover {
+  cursor: pointer;
+  font-size: 1.7rem;
+  transform: scale(1.1);
+  color: var(--green);
+}
+
+article.card .box .icons .moreLink {
+  font-size: 0.9rem;
+  color: var(--green);
+  gap: 3px;
+  margin-right: 13px;
+  /* align-self: */
+}

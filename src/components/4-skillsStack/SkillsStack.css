@@ -1,0 +1,54 @@
+div.skills-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  mask-image: linear-gradient(
+    to right, transparent, #333, transparent
+  );
+  padding-block: 1rem;
+  transition: .5s;
+}
+
+div.skills-slider .slider-track {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+}
+
+div.skills-slider .card {
+  min-width: 200px;
+  height: 3.2rem;
+  margin-right: 1rem;
+  border: 1px solid var(--border);
+  padding: 1rem;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.03)
+  );
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+  transition: .7s;
+}
+
+div.skills-slider:hover .card{
+  filter: grayscale(100%);
+}
+
+div.skills-slider .card:hover {
+  filter: grayscale(0);
+  border: 1px solid var(--green);
+  scale: 1.08;
+
+  rotate: -1deg;
+  /* transform-origin: center center; */
+}
+
+

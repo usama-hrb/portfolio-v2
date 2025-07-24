@@ -1,0 +1,181 @@
+section.hero {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  /* width: 100%; */
+  /* margin-top: 3rem; */
+  justify-content: center;
+  padding: 0 2rem;
+  letter-spacing: 1.3px;
+  /* padding-top: 100px; match the height of your header */
+}
+
+section.hero .hi {
+  display: none;
+}
+
+section.hero .left-section {
+  max-width: 80%;
+}
+
+section.hero .hero-title {
+  gap: 0.5rem;
+  user-select: none;
+}
+
+section.hero .hero-title .hello {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+section.hero .hero-title .oussama {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+section.hero .role-title {
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  user-select: none;
+}
+section.hero .line {
+  width: 5.6rem;
+}
+
+section.hero .role {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+section.hero .role .front-end {
+  color: var(--green);
+  font-weight: 500;
+}
+
+section.hero .paragraph {
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: var(--sub-title);
+  letter-spacing: 0.4px;
+  line-height: 1.6rem;
+}
+
+section.hero .p-front {
+  color: var(--green);
+  font-weight: 400;
+}
+
+section.hero .p-oussama {
+  font-weight: 500;
+}
+
+section.hero .typing {
+  color: var(--green);
+}
+
+section.hero .holder {
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 40rem;
+  height: 40rem;
+  min-height: 0;
+}
+
+section.hero .big-me {
+  height: 40rem;
+}
+
+
+
+section.hero .all {
+  height: 80%;
+  padding-top: 5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5rem;
+  
+}
+
+section.hero .gif {
+  filter: invert(1) sepia(1) hue-rotate(180deg) saturate(4);
+animation: bounce 5s infinite;
+}
+
+
+section.hero .icons {
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+section.hero .icons .icon {
+  color: var(--sub-title);
+  cursor: pointer;
+  font-size: 1.7rem;
+  transition: transform 1.05s ease;
+}
+
+section.hero .icons .icon:hover {
+  cursor: pointer;
+  font-size: 1.7rem;
+  transform: scale(1.1);
+  color: var(--green);
+}
+
+
+
+
+section.hero  span.profile-pic {
+  justify-content: center;
+  /* border: 3px solid var(--secondary); */
+  outline: 1.5px solid rgba(0, 213, 192, 0.384);
+  border-radius: 50%;
+  transition: transform 1.08s ease;
+  width: 7.5rem;
+  height: 7.5rem;
+  /* padding: 0.4rem 0.4rem; */
+  margin-bottom: 1.5rem;
+
+}
+
+
+section.hero span.profile-pic:hover {
+  /* transform: scale(1.05); */
+  transform: scale(1.07);
+  outline: 1px solid var(--green);
+  cursor: pointer;
+}
+
+section.hero span img {
+  width: 6.5rem;
+  /* height: 2.5rem; */
+}
+
+@media (max-width: 1500px) {
+  section.hero .holder {
+    display: none;
+  }
+}
+
+@media (max-width: 1270px) {
+  section.hero .hero-title {
+    flex-direction: column;
+    text-align: start;
+    align-items: flex-start;
+    gap: 0;
+  }
+}
+
+@media (max-width: 1105px) {
+   section.hero .hide-hello {
+      display: none;
+  }
+  section.hero .hi {
+    display: block;
+  }
+  section.hero .holder {
+    display: none;
+  }
+}

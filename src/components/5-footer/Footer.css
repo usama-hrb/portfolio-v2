@@ -1,0 +1,100 @@
+section.contact-me {
+    margin-bottom: 2.5rem;
+}
+
+.DotLottieReact {
+    width: 100%;
+}
+
+section.contact-me .right-side {
+  width: 100%;
+  max-width: 700px;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+  border: var(--border) 2px solid;
+  border-radius: 15px;
+  gap: 0;
+}
+
+section.contact-me .right-side .message-contact-me {
+  justify-content: center;
+  margin: 1.2rem 0 0 1.2rem;
+  gap: 0.7rem;
+  color: var(--title);
+}
+
+section.contact-me .right-side .message-contact-me ion-icon {
+  font-size: 2rem;
+}
+
+section.contact-me .right-side .form-container {
+  align-items: flex-start;
+  width: 100%;
+  margin: 1.2rem 1rem 1rem 1.2rem;
+}
+
+section.contact-me .right-side .contact-dis {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  width: 90%;
+  font-weight: 300;
+  color: var(--sub-title);
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+}
+
+section.contact-me .right-side .form-container .contact-form {
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+section.contact-me .right-side .form-container .contact-form input,
+section.contact-me .right-side .form-container .contact-form textarea {
+  width: 90%;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border);
+  background-color: var(--secondary);
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+section.contact-me .right-side .form-container .contact-form input:hover,
+section.contact-me .right-side .form-container .contact-form textarea:hover {
+  border: 1px solid var(--sub-title);
+}
+
+section.contact-me .right-side .form-container .contact-form input:focus,
+section.contact-me .right-side .form-container .contact-form textarea:focus {
+  border: 1px solid var(--green);
+}
+
+section.contact-me .right-side .form-container .contact-form textarea {
+  min-height: 200px;
+  resize: vertical;
+  word-wrap: break-word;
+}
+
+section.contact-me .right-side .form-container .contact-form button {
+  color: var(--title);
+  background-color: var(--green-a);
+  text-align: center;
+  margin: 0.2rem;
+  border-radius: 5px;
+  padding: 1rem;
+  border: 2px solid var(--border);
+  width: 150px;
+  font-weight: 500;
+  transition: all 0.9s ease;
+}
+
+section.contact-me .right-side .form-container .contact-form button:hover {
+  color: var(--title);
+  border: 2px solid var(--green);
+  transform: scale(1.02);
+}
