@@ -1,204 +1,209 @@
 const Projects = [
   {
     id: 1,
-    image: "/Quran-cover.png",
+    image: "./Quran-cover.png",
     title: "Interactive To‑Do App (with voice & dark mode)",
-    description: "Create tasks, sync to cloud, dark mode & optional voice input.Create tasks, sync to cloud, dark mode & optional voice input.Create tasks, sync to cloud, dark mode & optional voice input.Create tasks, sync to cloud, dark mode & optional voice input.Create tasks, sync to cloud, dark mode & optional voice input.",
+    description:
+      "Create tasks, sync to cloud, dark mode & optional voice input.Create tasks, sync to cloud, dark mode & optional voice input.Create tasks, sync to cloud, dark mode & optional voice input.Create tasks, sync to cloud, dark mode & optional voice input.Create tasks, sync to cloud, dark mode & optional voice input.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects", "Javascript"]
+    flag: ["All Projects", "Javascript"],
   },
   {
     id: 2,
-    image: "/Quran-cover.png",
+    image: "./Quran-cover.png",
     title: "Markdown Blog Editor (live preview)",
-    description: "Write markdown, see preview live, autosave drafts in Firebase.",
+    description:
+      "Write markdown, see preview live, autosave drafts in Firebase.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects", "Javascript"]
+    flag: ["All Projects", "Javascript"],
   },
   {
     id: 3,
-    image: "/Quran-cover.png",
+    image: "./Quran-cover.png",
     title: "Custom Kanban Board",
     description: "Drag‑and‑drop task board with IndexedDB persistence.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects", "Javascript"]
+    flag: ["All Projects", "Javascript"],
   },
   {
     id: 4,
-    image: "/Quran-cover.png",
+    image: "./Quran-cover.png",
     title: "Real‑Time Chat App",
     description: "React + WebSocket chat with GIF API integration.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects"]
+    flag: ["All Projects"],
   },
   {
     id: 5,
-    image: "/Quran-cover.png",
+    image: "./Quran-cover.png",
     title: "Live Data Visualizer Dashboard",
-    description: "Charts and filters for real-time public API data (e.g., stocks, weather).",
+    description:
+      "Charts and filters for real-time public API data (e.g., stocks, weather).",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects", "HTML && CSS"]
+    flag: ["All Projects", "HTML && CSS"],
   },
   {
     id: 6,
-    image: "/Quran-cover.png",
+    image: "./Quran-cover.png",
     title: "Recipe & Meal Planner",
-    description: "User-submitted recipes with dietary filter and meal planning calendar.",
+    description:
+      "User-submitted recipes with dietary filter and meal planning calendar.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects"]
+    flag: ["All Projects"],
   },
   {
     id: 7,
-    image: "/Quran-cover.png",
+    image: "./Quran-cover.png",
     title: "URL Shortener with Analytics",
     description: "Generate short codes, track clicks, geo and referrer info.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects", "Node & Express"]
+    flag: ["All Projects", "Node & Express"],
   },
   {
     id: 8,
-    image: "/Quran-cover.png",
+    image: "./Quran-cover.png",
     title: "Crypto Portfolio Tracker",
     description: "Track coins, graph historical data, set price alerts.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects", "Node & Express"]
+    flag: ["All Projects", "Node & Express"],
   },
   {
     id: 9,
-    image: "/Quran-cover.png",
+    image: "./Quran-cover.png",
     title: "Job Matching Portal (AI‑powered)",
     description: "Users upload resumes, portal matches relevant jobs via ML.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects", "Node & Express"]
+    flag: ["All Projects", "Node & Express"],
   },
   {
     id: 10,
-    image: "/Quran-cover.png",
+    image: "./Quran-cover.png",
     title: "E-Commerce Landing Page",
     description: "Product showcase, email capture form, UX‑focused layout.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects", "Node & Express"]
+    flag: ["All Projects", "Node & Express"],
   },
   {
     id: 11,
-    image: "/Quran-cover.png",
+    image: "./Quran-cover.png",
     title: "Fitness Goal Tracker",
     description: "Log workouts, chart progress, goal reminders and stats.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects", "Node & Express"]
+    flag: ["All Projects", "Node & Express"],
   },
   {
     id: 12,
-    image: "/Quran-cover.png",
-    title: "Reservation / Booking Platform",
+    image: "./Quran-cover.png",
+    title: "Reservation ./ Booking Platform",
     description: "Book events or hotels, manage availability, user dashboard.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects", "Node & Express"]
+    flag: ["All Projects", "Node & Express"],
   },
   {
     id: 13,
-    image: "/Quran-cover.png",
+    image: "./Quran-cover.png",
     title: "Online Course Platform",
-    description: "Host videos/quizzes, track student progress and discussion.",
+    description: "Host videos./quizzes, track student progress and discussion.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects", "Figma Designs"]
+    flag: ["All Projects", "Figma Designs"],
   },
   {
     id: 14,
-    image: "/Quran-cover.png",
+    image: "./Quran-cover.png",
     title: "Image Editor Web App",
     description: "Upload images, crop, apply filters, export edits.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects", "Figma Designs"]
+    flag: ["All Projects", "Figma Designs"],
   },
   {
     id: 15,
-    image: "/Quran-cover.png",
+    image: "./Quran-cover.png",
     title: "Collaborative Whiteboard",
     description: "Draw and chat in real time with multiple users.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects", "Figma Designs"]
+    flag: ["All Projects", "Figma Designs"],
   },
   {
     id: 16,
-    image: "/Quran-cover.png",
+    image: "./Quran-cover.png",
     title: "Recipe Finder & Meal Planner",
     description: "Search recipes, auto generate ingredient lists per diet.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects", "Figma Designs"]
+    flag: ["All Projects", "Figma Designs"],
   },
   {
     id: 17,
-    image: "/Quran-cover.png",
-    title: "Documentation Site for API / Library",
+    image: "./Quran-cover.png",
+    title: "Documentation Site for API ./ Library",
     description: "Interactive docs, live code examples, search UI.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects", "Figma Designs"]
+    flag: ["All Projects", "Figma Designs"],
   },
   {
     id: 18,
-    image: "/Quran-cover.png",
+    image: "./Quran-cover.png",
     title: "Browser Extension SaaS",
-    description: "Browser add-on providing utility, SaaS dashboard integration.",
+    description:
+      "Browser add-on providing utility, SaaS dashboard integration.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects", "Javascript"]
+    flag: ["All Projects", "Javascript"],
   },
   {
     id: 19,
-    image: "/Quran-cover.png",
+    image: "./Quran-cover.png",
     title: "Travel Finder App",
     description: "Suggest hidden gems based on user interests and APIs.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects", "Javascript"]
+    flag: ["All Projects", "Javascript"],
   },
   {
     id: 20,
-    image: "/Quran-cover.png",
+    image: "./Quran-cover.png",
     title: "Interactive Quiz Game",
     description: "Timed quizzes with scoring, leaderboards, themed content.",
     figmaLink: "#",
     githubLink: "#",
     moreLink: "#",
-    flag: ["All Projects", "Javascript"]
-  }
+    flag: ["All Projects", "Javascript"],
+  },
 ];
 
 export default Projects;
