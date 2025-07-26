@@ -110,15 +110,23 @@ input, textarea {
 @media (max-width: 1400px) {
   .container {
     width: 90%;
-    padding: 0;
+    padding: 0 0.5rem;
   }
+  .divider {
+  width: calc(100% + 0.5rem + 0.5rem);
+  margin-left: -0.5rem;
+}
 }
 
 @media (max-width: 1000px) {
   .container {
     width: 90%;
     /* padding: 0 1.7rem; */
-    padding: 0;
+    padding: 0 .3rem;
+  }
+  .divider {
+    width: calc(100% + .3rem + .3rem);
+    margin-left: -0.3em;
   }
 }
 
@@ -126,6 +134,10 @@ input, textarea {
   .container {
     width: 98%;
     /* padding: 0 1.7rem; */
-    padding: 0;
+    padding: 0 .1rem;
   }
+  .divider {
+  width: calc(100% + .1rem + .1rem);
+    padding: 0 .1rem;
+}
 }

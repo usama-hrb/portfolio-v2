@@ -4,6 +4,7 @@ import Hero from "./components/2-hero/Hero";
 import Main from "./components/3-main/Main";
 import SkillsStack from "./components/4-skillsStack/SkillsStack";
 import ContactMe from "./components/5-contact-me/ContactMe"
+import Footer from "./components/6-footer/Footer"
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <SkillsStack />
       <div className="divider" />
       <ContactMe />
+            <div className="divider" />
+      <Footer />
     </div>
     {/* <Particles id="particles"/> */}
     </>
