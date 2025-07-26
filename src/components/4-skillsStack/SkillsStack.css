@@ -6,17 +6,18 @@ div.skills-slider {
   overflow: hidden;
   width: 100%;
   position: relative;
-  mask-image: linear-gradient(
-    to right, transparent, #333, transparent
-  );
   padding-block: 1rem;
   transition: .5s;
 }
 
 div.skills-slider .slider-track {
   display: flex;
-  width: max-content;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* width: max-content; */
   will-change: transform;
+  row-gap: .4rem;
 }
 
 div.skills-slider .card {
@@ -45,9 +46,9 @@ div.skills-slider:hover .card{
 div.skills-slider .card:hover {
   filter: grayscale(0);
   border: 1px solid var(--green);
-  scale: 1.08;
+  scale: 1.05;
 
-  rotate: -1deg;
+  rotate: -1.5deg;
   /* transform-origin: center center; */
 }
 
