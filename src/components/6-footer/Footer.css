@@ -1,0 +1,39 @@
+section.footer-container {
+  margin: 1rem;
+  justify-content: space-between;
+}
+
+section.footer-container a {
+  color: var(--title);
+}
+
+section.footer-container .copyright {
+  color: var(--title);
+  font-size: 1.1rem;
+}
+
+section.footer-container .copyright a {
+  color: var(--sub-title);
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+section.footer-container .copyright a:hover {
+  color: var(--green);
+
+}
+
+section.footer-container .footer-icons {
+  gap: 0.6rem;
+}
+
+section.footer-container .footer-icons .icon {
+  font-size: 1.3rem;
+  transition: 0.3s;
+  color: var(--sub-title);
+}
+
+section.footer-container .footer-icons .icon:hover {
+  color: var(--green);
+  scale: 1.1;
+}

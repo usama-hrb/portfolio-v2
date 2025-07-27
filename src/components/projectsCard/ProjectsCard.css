@@ -96,3 +96,19 @@ article.card .box .icons .moreLink {
   margin-right: 13px;
   /* align-self: */
 }
+
+@keyframes move {
+  0% {
+    rotate: 8deg;
+  }
+  60% {
+    rotate: -3deg;
+  }
+  100% {
+    scale: 0deg;
+  }
+}
+
+article.card {
+  animation: move 1s 1;
+}

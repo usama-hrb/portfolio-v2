@@ -12,6 +12,7 @@ main.flex .left-section {
 }
 
 main.flex .left-section button {
+  min-width: 130px;
   color: var(--sub-title);
   text-align: center;
   margin: 0.2rem;

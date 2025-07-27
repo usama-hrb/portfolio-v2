@@ -5,7 +5,7 @@ import SkillsData from "../data/SkillsData";
 function SkillBuilder({ logo, dis }) {
   return (
     <div className="card flex">
-      <img width={30} src={logo} alt={dis} />
+      <img width={30} height={30} src={logo} alt={dis} />
       <h3 className="logo">{dis}</h3>
     </div>
   );

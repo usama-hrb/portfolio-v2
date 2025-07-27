@@ -31,17 +31,17 @@ const SkillsData = [
     },
     {
         id: 7,
-        logo: "./js.svg",
+        logo: "./typescript.svg",
         dis: "Typescript"
     },
     {
         id: 8,
-        logo: "./js.svg",
+        logo: "./docker.svg",
         dis: "Docker"
     },
     {
         id: 9,
-        logo: "./js.svg",
+        logo: "./mysql.svg",
         dis: "MySQL"
     },
     {
@@ -51,22 +51,22 @@ const SkillsData = [
     },
     {
         id: 11,
-        logo: "./js.svg",
+        logo: "./fastify-w.svg",
         dis: "Fastify"
     },
     {
         id: 12,
-        logo: "./js.svg",
+        logo: "./next-js-w.svg",
         dis: "Next.js"
     },
     {
         id: 13,
-        logo: "./js.svg",
+        logo: "./download.png",
         dis: "Express.js"
     },
     {
         id: 14,
-        logo: "./js.svg",
+        logo: "./figma.svg",
         dis: "Figma"
     },
 ]

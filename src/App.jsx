@@ -19,8 +19,9 @@ function App() {
       <SkillsStack />
       <div className="divider" />
       <ContactMe />
-            <div className="divider" />
+            <div className="divider last" />
       <Footer />
+
     </div>
     {/* <Particles id="particles"/> */}
     </>

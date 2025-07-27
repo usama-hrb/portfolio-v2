@@ -41,7 +41,25 @@ html {
   /*  Particles */
   --particles: #ffffff;
   --green-p: rgb(0, 213, 190);
+  transition: .5s;
 }
+
+body.light {
+  --primary: #ffffff;
+  --secondary: hsla(0, 0%, 98%, 1); /* Almost white with a soft touch */
+  --border: rgba(0, 0, 0, 0.1);
+  --title: rgb(17, 17, 17); /* Almost black for contrast */
+  --sub-title: rgb(85, 85, 95); /* Muted gray-blue for subtlety */
+  --bg-header: #f4f4f5;
+  --green: rgb(0, 213, 190);
+  --green-alpha: rgba(0, 213, 190, .3);
+  --green-a: rgba(0, 213, 190, 0.08);
+  /*  Particles */
+  --particles: #000000; /* In light mode, go dark for contrast */
+  --green-p: rgb(0, 213, 190);
+  transition: .5s;
+}
+
 
 body {
   background-color: var(--primary);
@@ -63,6 +81,10 @@ body {
   margin: 3rem 0;
   width: calc(100% + 4.8rem + 4.8rem);
   margin-left: -4.8rem;
+}
+
+.last {
+  margin-bottom: 0;
 }
 
 li {

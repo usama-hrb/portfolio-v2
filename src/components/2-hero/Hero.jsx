@@ -17,11 +17,15 @@ export default function Hero() {
         <div className="sections flex">
           <div className="left-section">
             <span className="flex profile-pic">
-              <img src="./me.png" alt="my profile" />
+              <img draggable="false" src="./me.png" alt="my profile" />
             </span>
             <div className="hero-title flex">
-              <h1 className="hide-hello hello">Hello! <span className="oussama">I'm</span></h1>
-              <h1 className="hi hello">Hi! <span className="oussama">I'm</span></h1>
+              <h1 className="hide-hello hello">
+                Hello! <span className="oussama">I'm</span>
+              </h1>
+              <h1 className="hi hello">
+                Hi! <span className="oussama">I'm</span>
+              </h1>
               <h1 className="oussama">
                 <span className="typing">{typing}</span>
                 {/* <span> */}

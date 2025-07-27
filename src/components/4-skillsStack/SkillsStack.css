@@ -9,6 +9,9 @@ div.skills-slider {
   padding-block: 1rem;
   transition: .5s;
 }
+div.skills-slider h2 {
+  color: var(--title);
+}
 
 div.skills-slider .slider-track {
   display: flex;
@@ -39,6 +42,10 @@ div.skills-slider .card {
   transition: .7s;
 }
 
+div.skills-slider .card .logo {
+  color: var(--title);
+}
+
 div.skills-slider:hover .card{
   filter: grayscale(100%);
 }
@@ -52,7 +59,8 @@ div.skills-slider .card:hover {
   /* transform-origin: center center; */
 }
 
-
-/* @media (max-width: 1400px) {
-  div.skills-slider {}
-} */
+@media (max-width: 500px) {
+  div.skills-slider .card {
+    min-width: auto;
+  }
+}
