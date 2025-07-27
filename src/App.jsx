@@ -38,10 +38,10 @@ function App() {
       <Footer />
       
     </div>
+    <Particles id="particles"/>
     {hideUp && <div onClick={() => scrollUp()} className="scroll-up">
         <ion-icon name="chevron-up"></ion-icon>
       </div>}
-    <Particles id="particles"/>
     </>
   );
 }

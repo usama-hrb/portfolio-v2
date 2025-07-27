@@ -135,43 +135,8 @@ input, textarea {
   z-index: -1;
   height: 100%;
   width: 100%;
-  position: absolute;
-}
-@media (max-width: 1400px) {
-  .container {
-    width: 90%;
-    padding: 0 0.5rem;
-  }
-  .divider {
-  width: calc(100% + 0.5rem + 0.5rem);
-  margin-left: -0.5rem;
-}
-}
-
-@media (max-width: 1000px) {
-  .container {
-    width: 90%;
-    /* padding: 0 1.7rem; */
-    padding: 0 .3rem;
-  }
-  .divider {
-    width: calc(100% + .3rem + .3rem);
-    margin-left: -0.3em;
-  }
-}
-
-@media (max-width: 600px) {
-  .container {
-    width: 98%;
-    /* padding: 0 1.7rem; */
-    padding: 0 .1rem;
-  }
-  .divider {
-  width: calc(100% + .1rem + .1rem);
-    padding: 0 .1rem;
-}
-}
-
+  position: fixed;
+}  
 .scroll-up {
   opacity: 0;
   display: flex;
@@ -206,3 +171,46 @@ input, textarea {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 1400px) {
+  .container {
+    width: 90%;
+    padding: 0 0.5rem;
+  }  
+  .divider {
+  width: calc(100% + 0.5rem + 0.5rem);  
+  margin-left: -0.5rem;
+}  
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 90%;
+    /* padding: 0 1.7rem; */
+    padding: 0 .3rem;
+  }  
+  .divider {
+    width: calc(100% + .3rem + .3rem);
+    margin-left: -0.3em;
+  }  
+  .scroll-up {
+ left: 88%;   
+} 
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 98%;
+    /* padding: 0 1.7rem; */
+    padding: 0 .1rem;
+  }  
+  .divider {
+  width: calc(100% + .1rem + .1rem);  
+    padding: 0 .1rem;
+}
+      .scroll-up {
+ left: 85%;   
+} 
+}
+
+
