@@ -23,10 +23,7 @@ article.card {
   border: 1.6px var(--green-a) solid;
   transition: 0.4s;
   border-radius: 5px;
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.05),
-    rgba(255, 255, 255, 0.03)
-  );
+  background-image: var(--g-background);
 }
 
 article.card img {
@@ -111,4 +108,5 @@ article.card .box .icons .moreLink {
 
 article.card {
   animation: move 1s 1;
+  box-shadow: .2px .2px 3px var(--sub-title);
 }

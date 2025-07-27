@@ -14,7 +14,7 @@ function SkillBuilder({ logo, dis }) {
 export default function SkillsStack() {
 
   return (
-    <div className="skills-slider">
+    <div id="skills" className="skills-slider">
       <h2>Skills Stack</h2>
       <div className="slider-track">
         {SkillsData.map((skill, i) => (

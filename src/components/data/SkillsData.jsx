@@ -56,7 +56,7 @@ const SkillsData = [
     },
     {
         id: 12,
-        logo: "./next-js-w.svg",
+        logo: "./nextjs.png",
         dis: "Next.js"
     },
     {

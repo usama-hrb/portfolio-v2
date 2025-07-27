@@ -15,7 +15,7 @@ export default function Footer() {
     console.log("Form Submitted!", form);
   };
   return (
-    <section className="contact-me flex">
+    <section id="contact" className="contact-me flex">
       <DotLottieReact className="DotLottieReact"
         src="https://lottie.host/2b145407-2bb9-4e4a-868b-a37d8cb9f940/jGB6jSeNi8.lottie"
         loop

@@ -5,8 +5,23 @@ import Main from "./components/3-main/Main";
 import SkillsStack from "./components/4-skillsStack/SkillsStack";
 import ContactMe from "./components/5-contact-me/ContactMe"
 import Footer from "./components/6-footer/Footer"
+import { useEffect, useState } from "react";
 
 function App() {
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 400) sethideUp(true);
+      else sethideUp(false)
+    })
+  }, []);
+
+  const [hideUp, sethideUp] = useState(false);
+
+  const scrollUp = () => {
+    window.scrollTo(0, 0);
+  }
+
   return (
     <>
     <div className="container">
@@ -21,9 +36,12 @@ function App() {
       <ContactMe />
             <div className="divider last" />
       <Footer />
-
-    </div>
+      
     {/* <Particles id="particles"/> */}
+    </div>
+    {hideUp && <div onClick={() => scrollUp()} className="scroll-up">
+        <ion-icon name="chevron-up"></ion-icon>
+      </div>}
     </>
   );
 }

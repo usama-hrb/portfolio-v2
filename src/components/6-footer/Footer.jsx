@@ -1,6 +1,11 @@
 import "./Footer.css";
 
 export default function Footer() {
+
+    const sroll = (() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <section className="footer-container flex">
       <div className="copyright">
@@ -32,6 +37,7 @@ export default function Footer() {
           <ion-icon className="icon" name="logo-figma" />
         </a>
       </div>
+
     </section>
   );
 }

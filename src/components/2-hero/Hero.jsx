@@ -7,7 +7,13 @@ import { useState, useEffect } from "react";
 
 export default function Hero() {
   const [typing] = useTypewriter({
-    words: [" Oussama", " Devloper", " Designer", " Pentester"],
+    words: [
+      " I'm Oussama",
+      " I do Design.",
+      " I write Code.",
+      " I craft UI.",
+      " I shape UX.",
+    ],
     loop: true,
     delaySpeed: 2000,
   });
@@ -21,10 +27,10 @@ export default function Hero() {
             </span>
             <div className="hero-title flex">
               <h1 className="hide-hello hello">
-                Hello! <span className="oussama">I'm</span>
+                Hello!
               </h1>
               <h1 className="hi hello">
-                Hi! <span className="oussama">I'm</span>
+                Hi!
               </h1>
               <h1 className="oussama">
                 <span className="typing">{typing}</span>

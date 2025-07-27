@@ -3,13 +3,10 @@ import "./Header.css";
 
 const Header = () => {
   const [showModel, setshowModel] = useState(false);
-  const [active, setactive] = useState("");
 
-  const hOnClick = (section) => {
-    setactive(section);
-  };
-
-  const [theme, settheme] = useState(localStorage.getItem("currTheme") ?? "dark");
+  const [theme, settheme] = useState(
+    localStorage.getItem("currTheme") ?? "dark"
+  );
   useEffect(() => {
     if (theme === "light") {
       document.body.classList.remove("dark");
@@ -19,37 +16,25 @@ const Header = () => {
       document.body.classList.add("dark");
     }
   });
+
   return (
     <header className="flex">
       <div></div>
       <nav>
         <ul className="flex">
           <li>
-            <a
-              href="#about"
-              className={active === "about" || active === "" ? "active" : ""}
-              onClick={() => hOnClick("about")}
-            >
+            <a href="#about" className="active">
               About
             </a>
           </li>
           <li>
-            <a
-              href="#projects"
-              className={active === "projects" ? "active" : ""}
-              onClick={() => hOnClick("projects")}
-            >
-              Projects
-            </a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="">Articls</a>
+            <a href="#skills">Skills Stack</a>
           </li>
           <li>
-            <a href="">Speaking</a>
-          </li>
-          <li>
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
@@ -59,18 +44,20 @@ const Header = () => {
         </button>
         <button
           onClick={() => {
-            localStorage.setItem("currTheme", theme === "dark" ? "light" : "dark");
+            localStorage.setItem(
+              "currTheme",
+              theme === "dark" ? "light" : "dark"
+            );
             settheme(localStorage.getItem("currTheme"));
           }}
           className="mode flex"
         >
-          {theme === "light" ? <ion-icon name="moon" /> : <ion-icon name="sunny" />}
-          
+          {theme === "light" ? (
+            <ion-icon name="moon" />
+          ) : (
+            <ion-icon name="sunny" />
+          )}
         </button>
-
-        {/* <button className="mode flex">
-          <ion-icon name="sunny"></ion-icon>
-        </button> */}
       </div>
 
       {showModel && (
@@ -86,19 +73,44 @@ const Header = () => {
               </button>
             </li>
             <li>
-              <a href="">About</a>
+              <a
+                onClick={() => {
+                  setshowModel(false);
+                }}
+                href="#about"
+              >
+                About
+              </a>
             </li>
             <li>
-              <a href="">Articles</a>
+              <a
+                onClick={() => {
+                  setshowModel(false);
+                }}
+                href="#projects"
+              >
+                Projects
+              </a>
             </li>
             <li>
-              <a href="">Projects</a>
+              <a
+                onClick={() => {
+                  setshowModel(false);
+                }}
+                href="#skills"
+              >
+                Skills Stack
+              </a>
             </li>
             <li>
-              <a href="">Speaking</a>
-            </li>
-            <li>
-              <a href="">Users</a>
+              <a
+                onClick={() => {
+                  setshowModel(false);
+                }}
+                href="#contact"
+              >
+                Contact
+              </a>
             </li>
           </ul>
         </div>
