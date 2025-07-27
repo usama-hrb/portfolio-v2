@@ -37,11 +37,11 @@ function App() {
             <div className="divider last" />
       <Footer />
       
-    {/* <Particles id="particles"/> */}
     </div>
     {hideUp && <div onClick={() => scrollUp()} className="scroll-up">
         <ion-icon name="chevron-up"></ion-icon>
       </div>}
+    <Particles id="particles"/>
     </>
   );
 }

@@ -23,7 +23,9 @@ export default function Hero() {
         <div className="sections flex">
           <div className="left-section">
             <span className="flex profile-pic">
-              <img draggable="false" src="./me.png" alt="my profile" />
+              <a target="_blank" href="https://github.com/usama-hrb">
+                <img draggable="false" src="./me.png" alt="my profile" />
+              </a>
             </span>
             <div className="hero-title flex">
               <h1 className="hide-hello hello">

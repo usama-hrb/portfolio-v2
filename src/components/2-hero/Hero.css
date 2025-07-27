@@ -201,7 +201,7 @@ section.hero  span.profile-pic {
   /* border: 3px solid var(--secondary); */
   outline: 1.5px solid rgba(0, 213, 192, 0.384);
   border-radius: 50%;
-  transition: transform 1.08s ease;
+  transition: all .8s;
   width: 7.5rem;
   height: 7.5rem;
   /* padding: 0.4rem 0.4rem; */
@@ -213,7 +213,8 @@ section.hero  span.profile-pic {
 
 section.hero span.profile-pic:hover {
   /* transform: scale(1.05); */
-  transform: scale(1.07);
+  /* transform: scale(1.1); */
+  scale: 1.05;
   outline: 1px solid var(--green);
   cursor: pointer;
 }
